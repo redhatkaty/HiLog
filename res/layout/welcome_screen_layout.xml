@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background3"	
+	
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button
+	android:id="@+id/collect_button"
+	android:background="@drawable/collect"	
+	android:layout_x="20dp"
+	android:layout_width="124dp" android:layout_height="148dp" android:layout_y="150dp"/>
+<Button android:layout_height="138dp" android:background="@drawable/show_record" android:layout_width="127dp" android:id="@+id/show_record_button" android:layout_x="182dp" android:layout_y="152dp"></Button>
+<Button android:layout_height="122dp" android:background="@drawable/about" android:layout_width="92dp" android:id="@+id/about_button" android:layout_x="122dp" android:layout_y="292dp"></Button>
+
+</AbsoluteLayout>

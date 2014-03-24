@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/collect_background"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button android:id="@+id/gps_collect" android:background="@drawable/gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="46dp" android:layout_y="105dp"></Button>
+<TextView android:id="@+id/widget40" android:background="@drawable/check_phone_record_service" android:layout_x="43dp" android:layout_y="352dp" android:layout_height="wrap_content" android:layout_width="176dp"></TextView>
+<Button android:id="@+id/takephoto" android:background="@drawable/photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="48dp" android:layout_y="230dp"></Button>
+<Button android:id="@+id/music_collect" android:background="@drawable/music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="184dp" android:layout_y="112dp"></Button>
+<CheckBox android:id="@+id/record_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="228dp" android:layout_y="350dp"></CheckBox>
+<Button android:id="@+id/record_button" android:background="@drawable/record" android:layout_width="wrap_content" android:layout_x="186dp" android:layout_height="wrap_content" android:layout_y="235dp"></Button>
+<TextView android:id="@+id/widget42" android:layout_height="86dp" android:background="@drawable/manual_collect_title" android:layout_width="292dp" android:layout_x="28dp" android:layout_y="24dp"></TextView>
+<Button android:layout_width="43dp" android:id="@+id/home_button" android:layout_height="44dp" android:background="@drawable/home" android:layout_x="257dp" android:layout_y="398dp"></Button>
+</AbsoluteLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<FrameLayout android:layout_height="fill_parent"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/productslist">
+
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:background="@drawable/show_web_background"
+		android:weightSum="1">
+		<TextView android:textSize="15dip" android:textColor="#000000"
+			android:typeface="monospace" android:paddingLeft="45dip"
+			android:layout_marginRight="20dip" android:layout_marginTop="25dip"
+			android:layout_height="wrap_content" android:layout_width="304dp"
+			android:layout_weight="0.37"></TextView>
+		<ScrollView android:layout_width="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_marginTop="25dip" android:layout_marginLeft="20dip"
+			android:fadeScrollbars="false" android:layout_height="346dp">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/user_info" android:textSize="15dip"
+				android:typeface="monospace" android:textColor="#000000"
+				android:paddingLeft="45dip" android:layout_marginRight="20dip"
+				android:layout_marginTop="25dip" android:text="暂无" />
+		</ScrollView>
+
+		<Button 
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:id="@+id/back_button" android:background="@drawable/back2" android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+</FrameLayout>

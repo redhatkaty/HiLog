@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/main_background">
+	<Button 
+	android:id="@+id/btn1" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+android:layout_marginTop="65dip"
+android:layout_marginBottom="10dp" 
+		android:background="@drawable/start_button" />
+	<Button 
+	android:id="@+id/btn2" 
+	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp" 
+		android:background="@drawable/stop_button" />
+	<Button android:id="@+id/btn3" 
+	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp" 
+		android:background="@drawable/view_data_button" />
+	<Button
+	 android:id="@+id/btn4" 
+	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp" 
+		android:background="@drawable/delete_data_button" />
+	<Button android:background="@drawable/back_button"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:id="@+id/back_button" android:layout_gravity="center_horizontal" />
+	<TextView 
+	android:id="@+id/tv01" 
+	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginBottom="10dp" 
+		 android:layout_gravity="center_horizontal"
+		android:textColor="#ff9900cc" />
+</LinearLayout>

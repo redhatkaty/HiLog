@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/capture_background"
+    android:weightSum="1">
+    
+        <ImageView  
+    android:id="@+id/photo"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   
+    />
+        <Button android:layout_width="166dp" android:background="@drawable/record_button" android:layout_height="wrap_content" android:id="@+id/record" android:layout_x="96dp" android:layout_y="122dp"></Button>
+        <Button android:layout_width="160dp" android:background="@drawable/stop_record_button" android:layout_height="wrap_content" android:id="@+id/convert" android:layout_x="104dp" android:layout_y="213dp"></Button>
+        <Button android:visibility="invisible" android:layout_width="119dp" android:background="@drawable/recording" android:layout_height="wrap_content" android:id="@+id/recording" android:layout_x="106dp" android:layout_y="26dp"></Button>
+        <Button android:layout_width="43dp" android:id="@+id/home_button" android:layout_height="44dp" android:background="@drawable/home" android:layout_x="259dp" android:layout_y="378dp"></Button>
+
+</AbsoluteLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/main_background">
+	
+	<ListView android:layout_width="fill_parent"
+		android:id="@+id/list01" 
+		android:textSize="20dip"
+		
+		android:fadeScrollbars="false" 
+		 android:paddingLeft="20dip"
+		     android:paddingTop  ="30dip"
+          
+		 android:paddingRight="20dip" android:layout_height="363dp"/>
+		<Button android:background="@drawable/back_button"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:id="@+id/back_button" android:layout_gravity="center_horizontal" />
+		<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    >
+		
+		</ScrollView>
+</LinearLayout>

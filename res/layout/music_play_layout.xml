@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget56"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/main_background"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:weightSum="1">
+	<ListView
+	android:layout_width="fill_parent"
+		android:id="@id/android:list"
+		android:textSize="15dip"
+		 android:textColor="#9932CD" 
+		  android:paddingTop="20dip"
+		 android:paddingBottom="10dip"
+		 android:paddingLeft="20dip"
+		 android:fadeScrollbars="false" 
+		 android:paddingRight="20dip" android:layout_height="wrap_content"/>
+    <AbsoluteLayout android:id="@+id/widget61" android:layout_height="wrap_content" android:layout_weight="0.25" android:layout_width="fill_parent">
+        <Button android:layout_width="wrap_content"  android:layout_y="26dp" android:background="@drawable/open_music_file" android:id="@+id/play" android:layout_x="80dp" android:layout_height="wrap_content"></Button>
+        <Button android:layout_width="wrap_content"  android:layout_y="84dp" android:background="@drawable/clear_music_history" android:id="@+id/music_delete_button" android:layout_x="82dp" android:layout_height="wrap_content"></Button>
+        <Button android:layout_width="wrap_content" android:background="@drawable/back_button" android:id="@+id/music_back_button" android:layout_height="wrap_content" android:layout_x="83dp" android:layout_y="142dp"></Button>
+    </AbsoluteLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/clear_music_history_focus">
+		
+	</item>
+ 
+	<item android:state_focused="true" android:drawable="@drawable/clear_music_history_focus">
+		
+	</item>
+ 
+	<item android:drawable="@drawable/clear_music_history_unfocus">
+		
+	</item>
+</selector> 
+
